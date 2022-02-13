@@ -19,7 +19,7 @@ public class PlayerData : MonoBehaviour
     {
         _playerBalance = 1000000;
         // _numberOfPlayer = Menu.inctance._playerNumber;
-        // SceneManager.LoadScene("");
+        SceneManager.LoadScene("MarketPlace");
     }
 
     public void Update()
