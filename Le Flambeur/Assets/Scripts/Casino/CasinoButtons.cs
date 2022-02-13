@@ -40,6 +40,7 @@ public class CasinoButtons : MonoBehaviour
         if (_isBetButtonPressed == true)
         {
             _isRedButtonPressed = true;
+            _isBetButtonPressed = false;
             Spin.StartSpin();
         }
     }
@@ -49,6 +50,7 @@ public class CasinoButtons : MonoBehaviour
         if (_isBetButtonPressed == true)
         {
             _isBlackButtonPressed = true;
+            _isBetButtonPressed = false;
             Spin.StartSpin();
         }
     }
@@ -58,6 +60,7 @@ public class CasinoButtons : MonoBehaviour
         if (_isBetButtonPressed == true)
         {
             _is1to12ButtonPressed = true;
+            _isBetButtonPressed = false;
             Spin.StartSpin();
         }
     }
@@ -67,6 +70,7 @@ public class CasinoButtons : MonoBehaviour
         if (_isBetButtonPressed == true)
         {
             _is13to24ButtonPressed = true;
+            _isBetButtonPressed = false;
             Spin.StartSpin();
         }
     }
@@ -76,6 +80,7 @@ public class CasinoButtons : MonoBehaviour
         if (_isBetButtonPressed == true)
         {
             _is25to36ButtonPressed = true;
+            _isBetButtonPressed = false;
             Spin.StartSpin();
         }
     }
@@ -83,6 +88,7 @@ public class CasinoButtons : MonoBehaviour
     void ChooseNumberPressed()
     {
         _isChooseNumberButtonPressed = true;
+        _isBetButtonPressed = false;
         Spin.StartSpin();
     }
 
