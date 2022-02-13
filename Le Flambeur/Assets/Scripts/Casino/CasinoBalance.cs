@@ -20,8 +20,8 @@ public class CasinoBalance : MonoBehaviour
     void Start()
     {
         StartCoroutine(CasinoDone());
-        DisplayBalance.text = PlayerData.instance._playerBalance.ToString();
-        _casinoBalance = PlayerData.instance._playerBalance;
+        DisplayBalance.text = "1000000"/*PlayerData.instance._playerBalance.ToString()*/;
+        _casinoBalance = 1000000 /*PlayerData.instance._playerBalance*/;
     }
 
     void Update()

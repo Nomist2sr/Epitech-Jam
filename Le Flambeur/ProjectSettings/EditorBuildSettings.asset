@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 8f533ba8d8f17a14a8ecd49f6fd65b32
+  - enabled: 1
     path: Assets/Scenes/Board.unity
     guid: a2ac997646081dd40b0c6acffe8071c3
   - enabled: 1
     path: Assets/Scenes/Casino.unity
     guid: 0cb1b42eed3bc554aa53accc4a05b944
+  - enabled: 1
+    path: Assets/Scenes/HorseRace.unity
+    guid: 9b746e63181f09847aa6789fd24dbc1e
   m_configObjects: {}

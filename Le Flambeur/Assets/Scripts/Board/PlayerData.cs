@@ -7,6 +7,7 @@ public class PlayerData : MonoBehaviour
 {
     public static PlayerData instance;
     public int _playerBalance;
+    public int _numberOfPlayer;
 
     private void Awake()
     {
@@ -17,7 +18,8 @@ public class PlayerData : MonoBehaviour
     void Start()
     {
         _playerBalance = 1000000;
-        SceneManager.LoadScene("Casino");
+        // _numberOfPlayer = Menu.inctance._playerNumber;
+        // SceneManager.LoadScene("");
     }
 
     public void Update()

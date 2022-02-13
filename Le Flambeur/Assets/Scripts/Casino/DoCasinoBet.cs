@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class DoCasinoBet : MonoBehaviour
 {
     public CasinoButtons Buttons;
+
     public string _result = "";
     public bool _resultGet = false;
 
