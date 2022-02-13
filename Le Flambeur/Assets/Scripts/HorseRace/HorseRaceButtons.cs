@@ -36,7 +36,7 @@ public class HorseRaceButtons : MonoBehaviour
 
     void Start()
     {
-        _numberOfPlayer = 4 /*SetPlayerNumber.instance._playerNumber*/;
+        _numberOfPlayer = SetPlayerNumber.instance._playerNumber;
         Button _horse1Button = GameObject.Find("Display/Canvas/Horse1").GetComponent<Button>();
         _horse1Button.onClick.AddListener(Horse1Pressed);
         Button _horse2Button = GameObject.Find("Display/Canvas/Horse2").GetComponent<Button>();
