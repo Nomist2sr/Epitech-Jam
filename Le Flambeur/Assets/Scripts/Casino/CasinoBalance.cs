@@ -14,13 +14,13 @@ public class CasinoBalance : MonoBehaviour
     public Text DisplayBalance;
     public Text Continue;
 
-    public int _casinoBalance = 0;
     public bool _casinoDone = false;
+    public int _casinoBalance;
 
     void Start()
     {
         StartCoroutine(CasinoDone());
-        DisplayBalance.text = "1000000"/*PlayerData.instance._playerBalance.ToString()*/;
+        DisplayBalance.text = "1000000" /*PlayerData.instance._playerBalance.ToString()*/;
         _casinoBalance = 1000000 /*PlayerData.instance._playerBalance*/;
     }
 
