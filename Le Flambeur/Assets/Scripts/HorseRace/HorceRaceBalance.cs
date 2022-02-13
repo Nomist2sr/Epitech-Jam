@@ -31,7 +31,7 @@ public class HorceRaceBalance : MonoBehaviour
         {
             if (DoHorseRaceBet._result == "horse1")
             {
-                Result.text = "Cheval 1 !";
+                Result.text = "Cheval 1";
                 Continue.text = "ESPACE pour continuer !";
                 if (_horseRaceDone == false)
                     _horseRaceBalance += System.Convert.ToInt32(Buttons._bet) * 2;
@@ -39,7 +39,7 @@ public class HorceRaceBalance : MonoBehaviour
             }
             if (DoHorseRaceBet._result == "horse2")
             {
-                Result.text = "Cheval 2 !";
+                Result.text = "Cheval 2";
                 Continue.text = "ESPACE pour continuer !";
                 if (_horseRaceDone == false)
                     _horseRaceBalance += System.Convert.ToInt32(Buttons._bet) * 3;
@@ -47,7 +47,7 @@ public class HorceRaceBalance : MonoBehaviour
             }
             if (DoHorseRaceBet._result == "horse3")
             {
-                Result.text = "Cheval 3 !";
+                Result.text = "Cheval 3";
                 Continue.text = "ESPACE pour continuer !";
                 if (_horseRaceDone == false)
                     _horseRaceBalance += System.Convert.ToInt32(Buttons._bet) * 4;
@@ -55,14 +55,14 @@ public class HorceRaceBalance : MonoBehaviour
             }
             if (DoHorseRaceBet._result == "horse4")
             {
-                Result.text = "Cheval 4 !";
+                Result.text = "Cheval 4";
                 Continue.text = "ESPACE pour continuer !";
                 if (_horseRaceDone == false)
                     _horseRaceBalance += System.Convert.ToInt32(Buttons._bet) * 5;
                 _horseRaceDone = true;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && _horseRaceDone == true)
         {
             SceneManager.LoadScene("Board");
         }

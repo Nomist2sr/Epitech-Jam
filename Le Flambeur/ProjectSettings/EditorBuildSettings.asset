@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HorseRace.unity
     guid: 9b746e63181f09847aa6789fd24dbc1e
+  - enabled: 1
+    path: Assets/Scenes/StockMarket.unity
+    guid: 643b6404b9e1e354e9e0360ab9e99ea4
   m_configObjects: {}

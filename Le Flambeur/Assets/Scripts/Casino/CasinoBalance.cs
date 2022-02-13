@@ -130,7 +130,7 @@ public class CasinoBalance : MonoBehaviour
                 _casinoDone = true;
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && _casinoDone == true)
         {
             SceneManager.LoadScene("Board");
         }
